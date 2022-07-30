@@ -1,3 +1,3 @@
 'use strict';
 
-module.exports = [require('./rate'), require('./sendEmails'), require('./subscribe')];
+module.exports = [require('./rate'), require('./send_emails'), require('./subscribe')];

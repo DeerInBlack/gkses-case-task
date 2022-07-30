@@ -32,7 +32,7 @@ async function runServer() {
             options: swaggerOptions
         },
         {
-            plugin: require('./plugins/mailingList'),
+            plugin: require('./plugins/mailing_list'),
             options: {
                 emailsPath: config.emailsPath,
                 transportOptions: config.mailTransportOptions
